@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+       font-family: font-1;
+       src: url(./assets/Poppins-Black.ttf);
+}
+@font-face {
+       font-family: font-2;
+       src: url(./assets/Poppins-Bold.ttf);
+}
+@font-face {
+       font-family: font-3;
+       src: url(./assets/Poppins-ExtraBold.ttf);
+}
+@font-face {
+       font-family: font-4;
+       src: url(./assets/Poppins-SemiBold.ttf);
+}
+.spacing{
+       letter-spacing: -0.03em;
+}
