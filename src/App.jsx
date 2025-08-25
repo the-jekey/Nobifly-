@@ -3,17 +3,19 @@ import Home from './Components/Home'
 import Footer from './Components/Footer'
 import Work from './Components/Work'
 import Service from './Components/services'
-import About from './Components/About'
 import LocomotiveScroll from 'locomotive-scroll';
+import LogoLoop from './Components/LogoLoop'
+import Marque from './Components/Marque'
+import About from './Components/About'
 
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className=''>
+    <div className='selection:bg-black selection:text-white'>
       <Home />
+      <Marque />
       <Service />
-      <About />
       <Work />
       <Footer />
     </div>
